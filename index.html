@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Graph API Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1><span class="span_fb">Facebook</span> Data Explorer</h1>
+            <p>Fetch real-time profile data using Object IDs.</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter 'me' or Page ID..." autocomplete="off" required>
+            <button id="fetchBtn">Fetch</button>
+        </div>
+
+        <div id="loadingIndicator" class="hidden">
+            <div class="spinner"></div>
+            <p>Loading profile data...</p>
+        </div>
+
+        <div id="errorBox" class="error-container hidden"></div>
+
+        <main id="displayArea" class="results-container">
+            </main>
+
+        <footer>
+            <p>API Source: <a href="https://developers.facebook.com/" target="_blank">Meta Graph API</a></p>
+            <p>&copy; 2025 API Thought Partner Project</p>
+        </footer>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+const CONFIG = {
+    FB_ACCESS_TOKEN: 'EAAWhMSeZBECsBQYNml0vdZCooL1xSJm70wQykfZBwMZAEpAZBOuJfJfmkunIuRoqRNHLQzee70atKoGob8p2drtm3sKgZACJZAD7dMnZAa5tz7zWjjBqxG9KM8pojiPoIghbc54zrmZBw15wsQxHoNbkRLqIgUlvPllkz0d9IKzI8gZAf8wr24gRH5OnwshXCFS4LFlYsGy1dAHmzGmZCMAUmcuwfVHpP9nzeIegjYXcMcF5ZB6RvdqIDB2b5L44zKEVxEEWCRkVlHFZCGwE53JomRVIMeNxJi7uRlx6Y8krpN9tgXSHuF0GJlZCQqdBqrbHH6zkfBQXdP',
+    BASE_URL: 'https://graph.facebook.com/v21.0/'
+};
+export default CONFIG;

@@ -1,0 +1,105 @@
+/* style.css */
+:root {
+    --fb-blue: #1877f2;
+    --error-red: #d32f2f;
+    --bg-gray: #f0f2f5;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: var(--bg-gray);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.app-container {
+    background: white;
+    width: 100%;
+    max-width: 550px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Search UI */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    background-color: var(--fb-blue);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #a2c4f1;
+    cursor: not-allowed;
+}
+
+/* Loading Spinner */
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--fb-blue);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 10px auto;
+}
+
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* Error Styling */
+.error-container {
+    background-color: #fdecea;
+    color: var(--error-red);
+    padding: 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+.hidden { display: none !important; }
+
+/* Result Card */
+.profile-card {
+    border: 1px solid #e4e6eb;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #65676b;
+}
+
+.span_fb {
+    color: #1877f2;
+}
