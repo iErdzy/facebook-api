@@ -51,3 +51,20 @@ project-folder/
 - Requires a valid and active access token
 - Private profiles cannot be fully accessed
 - Some data may not appear due to Facebook privacy policies
+
+## Role Assignment
+
+- To keep the project organized and running smoothly, each member was given a specific role:
+
+- Jessalyn S. Peralta – GitHub & Documentation Manager
+Manages the GitHub repository, handles commits, and keeps the README and project documentation updated.
+
+- Janiza Dela Cruz – API & Authentication Handler
+Handles API integration, data fetching, and manages API keys and authentication.
+
+- Ernie Roble – JavaScript Logic / Data Processing
+Works on the main JavaScript functions, data handling, validation, and overall app logic.
+
+- Vanessa Jimenez – UI & CSS Designer
+Designs the user interface, styles the app using CSS, and ensures a clean and user-friendly layout.
+
